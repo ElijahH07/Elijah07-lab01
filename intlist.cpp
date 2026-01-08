@@ -63,8 +63,8 @@ int IntList::max() const {
 // returns average (arithmetic mean) of all values, or
 // 0 if list is empty
 double IntList::average() const {
-    int sum = 0;
-    int count = 0;
+    double sum = 0;
+    double count = 0;
     Node *temp = head;
     while (temp) {
         sum += temp->info;
